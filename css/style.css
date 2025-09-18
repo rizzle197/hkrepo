@@ -45,3 +45,10 @@ ul {
   display: inline-block;
   margin: 10px;
 }
+#moveset_flexbox {
+    display: flex;
+    gap: 20px
+}
+#dashslash, #firepillar, #firebats, #pufferfish, #floorspikes {
+    flex: 1;
+}
