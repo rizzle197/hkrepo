@@ -6,9 +6,9 @@
   </head> 
   <body> 
     <header>
-        <h1>Guide to Beating Nightmare King Grimm</h1>
-        <p>In this guide, I will break down all of Grimm's moves / how to counter them as well as recommended charms</p>
-        <p>Grimm is one of the hardest bosses in Hollow Knight, so fighting him is no easy task, hopefully this guide will help make it more manageable</p>
+        <h1 id = "big">Guide to Beating Nightmare King Grimm</h1>
+        <p class = "bold">In this guide, I will break down all of Grimm's moves / how to counter them as well as recommended charms</p>
+        <p class = "bold">Grimm is one of the hardest bosses in Hollow Knight, so fighting him is no easy task, hopefully this guide will help make it more manageable</p>
         <!-- Base image of Grimm to show what he looks like -->
         <img
             src = "images/grimm.jpg"
@@ -18,44 +18,48 @@
     
     <main>
         <!-- Recommended charms and an organized list of those charms -->
-        <section>
+        
             <h2>Recommended Charms</h2>
-            <ol>
-                <li>Quick Focus</li>
-                <li>Unbreakable Strength</li>
-                <li>Shaman Stone</li>
-                <li>Quick Slash</li>
-                <li>Mark of Pride</li>
-                <li>Longnail</li>
-            </ol>
-        </section>
+            <section>
+              <ol>
+                  <li>Quick Focus</li>
+                  <li>Unbreakable Strength</li>
+                  <li>Shaman Stone</li>
+                  <li>Quick Slash</li>
+                  <li>Mark of Pride</li>
+                  <li>Longnail</li>
+              </ol>
+            </section>
 
         <!-- Basically for each section give the name of the move as a header, info about the move, an image, and how to avoid each move -->
         <section>
         <h2>Moveset</h2> 
-            
-            <h4>DASH SLASH</h4>
-                <p>He dashes toward you while slashing.</p>
-                <img
-                    src = "images/dash.jpg"
-                    alt = "Dash Slash"
-                    width = 25%/>
-                <p>You can avoid this by jumping over him and downslashing as he passes</p>
-            
-            <h4>FIRE PILLAR</h4>
-                <p>Spawns four fire pillars underneath you.</p>
-                <img
-                    src = "images/fire-pillar.jpg"
-                    alt = "Fire Pillar"
-                    width = 25%/>
-                <p>You can avoid this by dashing horizontally as each pillar is about to hit you. In betweeen fire pillar spawns, he is very vulnerable, which allows you to get several hits.</p>
-
+            <section>
+              <h4 class = "underline">DASH SLASH</h4>
+                  <p>He dashes toward you while slashing.</p>
+                  <img
+                      src = "images/dash.jpg"
+                      alt = "Dash Slash"
+                      width = 25%/>
+                  <p>You can avoid this by jumping over him and downslashing as he passes</p>
+            </section>
+            <section>
+              <h4 class = "underline">FIRE PILLAR</h4>
+                  <p>Spawns four fire pillars underneath you.</p>
+                  <img
+                     src = "images/fire-pillar.jpg"
+                      alt = "Fire Pillar"
+                      width = 25%/>
+                  <p>You can avoid this by dashing horizontally as each pillar is about to hit you. In betweeen fire pillar spawns, he is very vulnerable, which allows you to get several hits.</p>
+            </section>  
         </section>
 
     </main>
   </body>
   <footer>
     <!-- Reference to page2.html -->
-    <a href="page2.html">Read more on Page 2</a>
+    <p id = "button">
+      <a href="page2.html">Read more on Page 2</a>
+    </p>
   </footer>
 </html>
