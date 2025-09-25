@@ -3,11 +3,9 @@ body {
   background-color: mistyrose;
   text-align: center;
 }
-h2 {
-    background-color: rgb(148, 83, 83);
-    text-align: center;
+h2, h3, h4, h5 {
+    font-size: 24px;
     padding: 10px;
-    color: white;
 }
 section {
     background-color: mistyrose;
@@ -32,13 +30,17 @@ ul {
 .underline {
     text-decoration: underline;
 }
+.red_bg {
+    background-color: rgb(148, 83, 83);
+    color: white;
+}
 
 /* IDs */
 #big { /* used on h1 header of index and page2 */
     font-size: 50px;
 }
 #button { /* used on footer reference to each page */
-  background-color: rgb(231, 28, 62);
+  background-color: white;
   padding: 15px;
   text-align: center;
   text-decoration: none;
