@@ -57,7 +57,7 @@ ul {
 }
 
 /* Media Query for small screens */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     /* Stack flex items vertically */
     #moveset_flexbox {
         flex-direction: column;
