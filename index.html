@@ -7,62 +7,62 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" href="css/style.css">
   </head> 
-  <body class="text-center mistyrose_bg"> 
-    <header>
-        <h1 class = "fs-1 fw-bold">Guide to Beating Nightmare King Grimm</h1>
-        <p class = "fw-bold">In this guide, I will break down all of Grimm's moves / how to counter them as well as recommended charms</p>
-        <p class = "fw-bold">Grimm is one of the hardest bosses in Hollow Knight, so fighting him is no easy task, hopefully this guide will help make it more manageable</p>
-        <!-- Base image of Grimm to show what he looks like -->
-        <img
-            src = "images/grimm.jpg"
-            alt = Grimm
-            width = 25%/>
-    </header>
-    
-    <main>
-        <!-- Recommended charms and an organized list of those charms -->
-        
-            <h2 class="fs-4 p-2 red_bg">Recommended Charms</h2>
-            <section>
-              <ol>
-                  <li>Quick Focus</li>
-                  <li>Unbreakable Strength</li>
-                  <li>Shaman Stone</li>
-                  <li>Quick Slash</li>
-                  <li>Mark of Pride</li>
-                  <li>Longnail</li>
-              </ol>
-            </section>
+  <body class="text-center mistyrose_bg">
+    <div class="container-fluid">
+      <header>
+          <h1 class = "fs-1 fw-bold">Guide to Beating Nightmare King Grimm</h1>
+          <p class = "fw-bold">In this guide, I will break down all of Grimm's moves / how to counter them as well as recommended charms</p>
+          <p class = "fw-bold">Grimm is one of the hardest bosses in Hollow Knight, so fighting him is no easy task, hopefully this guide will help make it more manageable</p>
+          <!-- Base image of Grimm to show what he looks like -->
+          <img
+              src = "images/grimm.jpg"
+              alt = Grimm
+              width = 25%/>
+      </header>
+      
+      <main>
+          <!-- Recommended charms and an organized list of those charms -->
+          
+        <h2 class="fs-4 p-2 red_bg">Recommended Charms</h2>
+          <section>
+            <ol>
+                <li>Quick Focus</li>
+                <li>Unbreakable Strength</li>
+                <li>Shaman Stone</li>
+                <li>Quick Slash</li>
+                <li>Mark of Pride</li>
+                <li>Longnail</li>
+            </ol>
+          </section>
 
-        <!-- Basically for each section give the name of the move as a header, info about the move, an image, and how to avoid each move -->
-      <h2 class = "fs-4 p-2 red_bg">Moveset</h2>
-      <div id = "moveset_flexbox">   
-        <section id = dashslash class="fs-5">
-          <h2 class = "fs-4 p-2 text-decoration-underline">DASH SLASH</h2>
-            <p>He dashes toward you while slashing.</p>
-            <img
-                src = "images/dash.jpg"
-                alt = "Dash Slash"
-                width = 40%/>
-            <p>You can avoid this by jumping over him and downslashing as he passes</p>
-        </section>
-        <section id = "firepillar" class="fs-5">
-            <h3 class = "fs-4 p-2 text-decoration-underline">FIRE PILLAR</h3>
-              <p>Spawns four fire pillars underneath you.</p>
+          <!-- Basically for each section give the name of the move as a header, info about the move, an image, and how to avoid each move -->
+        <h2 class = "fs-4 p-2 red_bg">Moveset</h2>
+        <div class="row">
+          <section class="col-md-6 fs-5">
+            <h2 class = "fs-4 p-2 text-decoration-underline">DASH SLASH</h2>
+              <p>He dashes toward you while slashing.</p>
               <img
-                  src = "images/fire-pillar.jpg"
-                  alt = "Fire Pillar"
+                  src = "images/dash.jpg"
+                  alt = "Dash Slash"
                   width = 40%/>
-              <p>You can avoid this by dashing horizontally as each pillar is about to hit you. In betweeen fire pillar spawns, he is very vulnerable, which allows you to get several hits.</p>
-        </section>  
-      </div>
+              <p>You can avoid this by jumping over him and downslashing as he passes</p>
+          </section>
+          <section class="col-md-6 fs-5">
+              <h3 class = "fs-4 p-2 text-decoration-underline">FIRE PILLAR</h3>
+                <p>Spawns four fire pillars underneath you.</p>
+                <img
+                    src = "images/fire-pillar.jpg"
+                    alt = "Fire Pillar"
+                    width = 40%/>
+                <p>You can avoid this by dashing horizontally as each pillar is about to hit you. In betweeen fire pillar spawns, he is very vulnerable, which allows you to get several hits.</p>
+          </section>  
+        </div>
 
-    </main>
+      </main>
+      <footer class="mt-4">
+        <!-- Reference to page2.html -->
+        <a href="page2.html" class="btn btn-primary btn-lg">Read more on Page 2</a>
+      </footer>
+    </div>
   </body>
-  <footer>
-    <!-- Reference to page2.html -->
-    <p id = "button">
-      <a href="page2.html" class="btn btn-primary btn-lg">Read more on Page 2</a>
-    </p>
-  </footer>
 </html>
