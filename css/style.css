@@ -1,17 +1,4 @@
 /* General Rule Sets*/
-body {
-  background-color: mistyrose;
-  text-align: center;
-}
-h2, h3, h4, h5 {
-    font-size: 24px;
-    padding: 10px;
-}
-section {
-    background-color: mistyrose;
-    text-align: center;
-    font-size: 20px;
-}
 ol {
     display: inline-block;
     margin: 0;
@@ -24,11 +11,8 @@ ul {
 }
 
 /* Classes */
-.bold {
-    font-weight: bold;
-}
-.underline {
-    text-decoration: underline;
+.mistyrose_bg {
+  background-color: mistyrose;
 }
 .red_bg {
     background-color: rgb(148, 83, 83);
@@ -36,9 +20,6 @@ ul {
 }
 
 /* IDs */
-#big { /* used on h1 header of index and page2 */
-    font-size: 50px;
-}
 #button { /* used on footer reference to each page */
   background-color: white;
   padding: 15px;

@@ -2,13 +2,16 @@
 <html lang="en">
   <head> 
     <title>Beating Nightmare King Grimm</title>
+    <!-- Link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="css/style.css">
   </head> 
-  <body> 
+  <body class="text-center mistyrose_bg"> 
     <header>
-        <h1 id = "big">Guide to Beating Nightmare King Grimm</h1>
-        <p class = "bold">In this guide, I will break down all of Grimm's moves / how to counter them as well as recommended charms</p>
-        <p class = "bold">Grimm is one of the hardest bosses in Hollow Knight, so fighting him is no easy task, hopefully this guide will help make it more manageable</p>
+        <h1 class = "fs-1 fw-bold">Guide to Beating Nightmare King Grimm</h1>
+        <p class = "fw-bold">In this guide, I will break down all of Grimm's moves / how to counter them as well as recommended charms</p>
+        <p class = "fw-bold">Grimm is one of the hardest bosses in Hollow Knight, so fighting him is no easy task, hopefully this guide will help make it more manageable</p>
         <!-- Base image of Grimm to show what he looks like -->
         <img
             src = "images/grimm.jpg"
@@ -19,7 +22,7 @@
     <main>
         <!-- Recommended charms and an organized list of those charms -->
         
-            <h2 class = "red_bg">Recommended Charms</h2>
+            <h2 class="fs-4 p-2 red_bg">Recommended Charms</h2>
             <section>
               <ol>
                   <li>Quick Focus</li>
@@ -32,10 +35,10 @@
             </section>
 
         <!-- Basically for each section give the name of the move as a header, info about the move, an image, and how to avoid each move -->
-      <h2 class = "red_bg">Moveset</h2>
+      <h2 class = "fs-4 p-2 red_bg">Moveset</h2>
       <div id = "moveset_flexbox">   
-        <section id = dashslash>
-          <h2 class = "underline">DASH SLASH</h2>
+        <section id = dashslash class="fs-5">
+          <h2 class = "fs-4 p-2 text-decoration-underline">DASH SLASH</h2>
             <p>He dashes toward you while slashing.</p>
             <img
                 src = "images/dash.jpg"
@@ -43,8 +46,8 @@
                 width = 40%/>
             <p>You can avoid this by jumping over him and downslashing as he passes</p>
         </section>
-        <section id = "firepillar">
-            <h3 class = "underline">FIRE PILLAR</h3>
+        <section id = "firepillar" class="fs-5">
+            <h3 class = "fs-4 p-2 text-decoration-underline">FIRE PILLAR</h3>
               <p>Spawns four fire pillars underneath you.</p>
               <img
                   src = "images/fire-pillar.jpg"
